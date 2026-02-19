@@ -36,6 +36,6 @@ APIs: SerpApi (Google Search & Maps)
 Data Handling: Pandas, JSON, Asyncio
 
 # How to Use
-1. Clone: git clone https://github.com/YourUsername/Dental-College-Data-Extraction
+1. Clone: git clone https://github.com/Shoumodipdc/Dental-College-Data-Extraction
 2. Setup: Add your GROQ_API_KEY and SERPAPI_KEY to your environment variables or Colab Secrets.
 3. Execute: Run the get_accurate_college_profile function to generate a report.
