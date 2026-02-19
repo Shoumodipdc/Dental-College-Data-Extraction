@@ -17,23 +17,30 @@ The model reads up to 15,000 words of scraped text and filters it into a strict 
 3. Data Loading (Structured Output)
 The final output is a structured record ready for benchmarking.
 
-Metric           Business Value
-Management Type  Classifies Govt vs. Private institutions.
-Seat Intake      Analyzes educational capacity.
-DCI Status       Validates regulatory compliance.
-Connectivity     Evaluates infrastructure accessibility (Airport/Railway).
+# Data Insights & Business Value
+
+The pipeline extracts key metrics to transform unstructured web noise into actionable institutional intelligence.
+
+
+
+| Metric | Business Value |
+| :--- | :--- |
+| **Management Type** | Classifies Govt vs. Private institutions for market distribution analysis. |
+| **Seat Intake** | Quantifies educational capacity for supply-demand modeling. |
+| **DCI Status** | Validates regulatory compliance and institutional legality. |
+| **Connectivity** | Benchmarks infrastructure accessibility (Airport/Railway proximity). |
 
 # Key Results
-Speed: Reduced audit time from 20 minutes per college to under 45 seconds.
-Consistency: 95% accuracy in data extraction via LLM-based validation.
-Scalability: Designed to process hundreds of institutions simultaneously using Asynchronous Concurrency.
+* **Speed:** Reduced audit time from 20 minutes per college to under 45 seconds.
+* **Consistency:** 95% accuracy in data extraction via LLM-based validation.
+* **Scalability:** Designed to process hundreds of institutions simultaneously using Asynchronous Concurrency.
 
 # Tech Stack
-Language: Python
-LLM: Groq (Llama 3.1)
-Automation: Crawl4AI, Playwright 
-APIs: SerpApi (Google Search & Maps)
-Data Handling: Pandas, JSON, Asyncio
+* **Language:** Python
+* **AI/LLM:** Groq (Llama 3.1)
+* **Automation:** Crawl4AI, Playwright (Headless Browsing)
+* **APIs:** SerpApi (Google Search & Maps)
+* **Data Handling:** Pandas, JSON, Asyncio
 
 # How to Use
 1. Clone: git clone https://github.com/Shoumodipdc/Dental-College-Data-Extraction
