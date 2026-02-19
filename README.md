@@ -10,7 +10,7 @@ Transformation (Cleaning Data with AI): Websites are full of "fluff" (ads, long 
 Loading (Reporting): The final step turns the AI's findings into a structured table. This allows us to compare colleges side-by-side, spot trends (like urban vs. rural distribution), and check for regulatory compliance.
 
 Why This Matters for Business
-Efficiency: It does 10 hours of manual research in 30 seconds.
+Efficiency: It does manual research in 30 seconds.
 
 Data Integrity: It uses AI to cross-verify facts across multiple sources, ensuring the data is accurate.
 
